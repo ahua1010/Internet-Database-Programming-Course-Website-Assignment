@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 140px;
+    background-color: rgba(243, 242, 240, 0.8);
+    color: #323333;
+    text-align: center;
+}
+
+.mod_copyright {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    color: #323333;
+    text-decoration: none;
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}

@@ -1,0 +1,16 @@
+
+.content .list ul li{
+    list-style-type: none;
+    color: black;
+    font-weight:bolder;
+    padding: 15px;
+    
+}
+
+
+.photo img{
+    display:inline-block;
+    height: 15%;
+    width: 15%;
+    
+}

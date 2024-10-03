@@ -1,0 +1,80 @@
+
+.container {
+  /* width: 100%;
+  min-width: 1280px;
+  margin: 0 auto; */
+  background-color: rgb(243, 245, 242);
+}
+.content {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.content>.slide_photo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content>.slide_photo img {
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.food,
+.drink {
+  text-align: center;
+  color: rgba(51, 50, 50, 0.9);
+  margin: 0px auto;
+}
+
+.food h1,
+.drink h1 {
+  margin: 25px;
+  padding: 5px;
+}
+
+.box:hover {
+  box-shadow: 0px 10px 9px 9px rgba(95, 92, 92, 0.2);
+}
+
+.box a {
+  color: rgba(20, 20, 20, 0.85);
+  text-decoration: none;
+}
+
+.box {
+  display: inline-block;
+  background-color: rgb(252, 255, 252);
+  width: 250px;
+  height: 480px;
+  margin: 1%;
+  text-align: left;
+}
+
+.info {
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 0 32px;
+}
+
+.info h4 {
+  display: inline-block;
+  font-weight: normal;
+  color: rgba(37, 36, 37, 0.8);
+}
+
+.info span {
+  color: #ff6700;
+  float: right
+}
+
+.box img {
+  width: 100%;
+}
+
+.box p {
+  margin-top: 34px;
+  height: 140px;
+  padding: 0 32px;
+  text-align: left;
+}

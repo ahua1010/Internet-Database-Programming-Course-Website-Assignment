@@ -1,0 +1,99 @@
+/* 消除全局預設，主要是body */
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    top: 0;
+}
+
+.header-icon {
+    height: 120px;
+}
+
+.LOGO {
+    display: inline;
+    float: left;
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+}
+
+.ICON {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    align-items: flex-end;
+    font-style: 14px;
+}
+
+.ICON a {
+    margin: 0 15px;
+    padding-bottom: 10px;
+    color: rgb(255, 113, 113);
+    text-decoration: none;
+}
+
+.ICON a:hover {
+    text-decoration: underline;
+}
+.count {
+    top: 71px;
+    right: -32px;
+    margin-right: 50%;
+    position: absolute;
+    height: 18px;
+    color: #fff;
+    background-color: #e60012;
+    font-style:normal;
+    padding: 0 5px;
+    border-radius: 9px;
+}
+
+.block {
+    background-color: white;
+    display: inline;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.category {
+    margin: 0 auto;
+}
+
+.category-bar {
+    background-color: rgb(255, 113, 113);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.category li {
+    display: inline;
+}
+
+.category li a {
+    margin: 50px;
+    font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.category li a:hover {
+    text-decoration: none;
+    color: #ff0;
+}

@@ -1,0 +1,165 @@
+.product-photo {
+    display: inline;
+    float: left;
+    border-color: rgb(255, 113, 113);
+    border-style: solid;
+    border-width: 10px;
+}
+
+.product-description {
+    font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    font-size: 12px;
+    height: 500px;
+    float: right;
+    width: 600px;
+    margin-left: 5%;
+}
+
+
+.product-detail {
+    margin-top: 50px;
+    font-size: 18px;
+    color: rgb(103, 103, 103);
+    border-left-color: rgb(255, 113, 113);
+    border-left-width: 5px;
+    border-left-style: solid;
+    background-color: rgb(237, 237, 237);
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 30px;
+    color: rgb(255, 71, 71);
+    text-align: right;
+}
+
+.product-buying {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comments{
+    float:left;
+    width:100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 71, 71);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comments h2{
+    margin:0px;
+}
+
+.comment-item{
+    list-style: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.comment-item li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+}
+
+.comment-item li p{
+    margin: 10px;
+    font-size: 16px;
+}
+
+.quantity {
+    float: left;
+    display: inline;
+    width: 100%;
+    font-size: 25px;
+    color:rgb(106, 106, 106);
+    font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+}
+
+.quantity-text{
+    width: 100px;
+    float: left;
+    display: inline;
+}
+
+.quantity-button{
+    width: 200px;
+    float: left;
+    display: inline;
+}
+
+.minus, .plus{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-color: rgb(255, 113, 113);
+    border-width: 3px;
+    font-size: large;
+    color: rgb(255, 113, 113);
+    
+}
+
+input[name='quantity'] {
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: rgb(255, 113, 113);
+    border-style: solid;
+    border-width: 2px;
+    font-size: large;
+}
+
+.stock{
+    float: right;
+    display: inline;
+}
+
+.actions{
+    float: left;
+    display: inline;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cart, .checkout{
+    float: left;
+    display: inline;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    background-color: rgb(255, 113, 113);
+    color: white;
+    border-color: white;
+    
+}
+
+.checkout{
+    margin-left: 10px;
+}
+
+.checkout a{
+    color: white;
+    text-decoration: none;
+}
+
+.wishlist{
+    float: right;
+    display: inline;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    background-color: white;
+    color: rgb(255, 113, 113);
+    border-color: rgb(255, 113, 113);
+}
